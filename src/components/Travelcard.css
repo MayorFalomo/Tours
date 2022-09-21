@@ -1,0 +1,60 @@
+
+.flexItem{
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items: space-around;
+    justify-content:center;
+    max-width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img{
+    width: 100%;
+}
+.card .price{
+    font-size:20px;
+    color:deepskyblue;
+    background-color:ghostwhite;
+}
+.card p{
+    font-size:22px;
+}
+.interest{
+    display:flex;
+    justify-content:center;
+    align-self: center;
+}
+.interest button{
+    padding:5px 40px;
+    font-size: 25px;
+    border: 1px red solid;
+    border-radius: 5px;
+    color:red;
+    outline: none;
+}
+.text{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.card .readBtn{
+    background-color: transparent;
+    color:deepskyblue;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.card p{
+    font-size: 18px;
+    line-height: 25px;
+}
+h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
